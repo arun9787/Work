@@ -1,0 +1,551 @@
+1. Prime Numbers :
+
+Define :
+
+A number that is divisible only by itself and 1. 
+
+Algorithm :
+Step 1 : Start the program  
+Step 2 : Declare values of number & Isprime and Initialize the values.
+Step 3 : check the condition , whether the condition is prime or not.
+Step 4 : Get the input form the user
+Step 5 : print the output
+Step 6 : Stop the program 
+
+Pesudo Code :
+    Const Number = 5
+    let Isprime = true
+    if number == 1
+        1 is neither prime number
+    elseif number > 1
+        for let i=2 i< number 
+            if number i == 0   
+                break
+        if Isprime
+            prime number
+        else
+            not prime number
+    else
+        the number is not a prime number
+
+
+2. == & ===
+
+Algorithm :
+
+Step 1 : start the program
+Step 2 : declare the variables and Initialize a values 
+Step 3 : check the condition , whether same or not.
+Step 4 : Get the input form the user
+Step 5 : print the output
+Step 6 : stop the program
+
+Pesudo Code :
+    Var a = 10
+    a == 10
+    b === 10
+
+
+3. Reverse string :
+
+Define :
+
+The split() method splits a String object into an array of string by separating the string into sub strings. The reverse() method reverses an array in place. 
+The first array element becomes the last and the last becomes the first. The join() method joins all elements of an array into a string.
+
+Algorithm :
+
+Step 1 : start the program 
+Step 2 : Initialize the Reversestring  
+Step 3 : check the if condition , then check the loop condition is reverse or not.
+Step 4 : Get the input form the user 
+Step 5 : print the values
+step 6 : stop the program
+
+Pesudo Code :
+        function Reversestring str
+            if str str.length < 2 typeof str == string
+                return not valid
+            const revArray 
+            const length = str.length - 1
+            for let i = length i = 0 
+                revArray push str i
+            return revArray join 
+
+4. Reverse Words :
+
+Define :
+
+You can make use of split and map function to create the reverse words. 
+You need to first split the sentence using space and then you can just reverse each word and join the reversed words again
+
+Algorithm :
+
+Step 1 : Start the program 
+Step 2 : Initialize the reverseWords
+Step 3 : split the value and reverse it.
+Step 4 : Get the input form the user
+Step 5 : print the values
+Step 6 : stop the program
+
+Pesudo Code :
+        function reverseWords str
+            return reverseWordArr 
+
+5. Palindrome :
+
+Define :
+
+A palindrome is used to verify a sequence of numbers, strings, or letters that are read left to right and right to left to match the same characters or 
+return the same sequence of characters.
+
+Algorithm :
+
+Step 1 : start the program
+Step 2 : Initialize the values and declare the variables
+Step 3 : Check the for condition and whether condition is Palindrome or not.
+Step 4 : Get the input from the user
+Step 5 : Print the output
+Step 6 : Stop the program
+
+Pesudo Code :
+        function check Palindrome str
+            letj = str length - 1
+            for let i=0 i j<2 
+                let x = str i
+                let y = str j-1
+                if x = y
+                    return false
+                return true 
+        function is Palindrome str
+            let ans = check Palindrome str
+            if ans == true
+                passoed string is Palindrome
+            else
+                passed string not a Palindrome\
+        let test = Yavar
+
+6 . ForEach & Map :
+
+Define :
+
+forEach “executes a provided function once per array element.” 
+Array. map “creates a new array with the results of calling a provided function on every element in this array.”
+
+Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the variables
+Step 3 : Check the condition 
+Step 4 : Get the input form the user.
+Step 5 : Print the output 
+Step 6 : Stop the program
+
+Pesudo Code :
+
+        let myarray1 = 1 2 3 4 
+        const returnvalue1 = myarray1.foreach element
+            return element element
+        returnvalue1
+
+        let myarray2 = 1 2 3 4 
+        const returnvalue2 = myarray2.map element
+            retur element element
+        returnvalue2
+
+7.  Random Number :
+
+Define : 
+To create a random number in Javascript, the math. random() function is used. ... random() generates a random decimal value between 0 and 1. 
+The function does not take any arguments. To get random numbers higher than 1 simply multiply the result according to the need.
+
+Algorithm :
+
+Step 1 : start the program
+Step 2 : Initialize the values and Declare the variables
+Step 3 : check the condititon for the const
+Step 4 : Get the input values for user.
+Step 5 : print the output 
+Step 6 : Stop the program
+
+Pesudo Code :
+
+    const min = 1
+    const max = 5
+
+8.  Remove the duplicate 
+
+Define :
+
+To remove the duplicates, we use the filter() method to include only elements whose current indexes match their indexOf() values.
+We stored those values in an array named unique and returned them by calling using the filter() function.
+
+Algorithm :
+
+Step 1 : Start the program 
+Step 2 : Initialize the values and Declare the variables
+Step 3 : check the for loop condition is duplicate or not
+Step 4 : Get the input from the user.
+Step 5 : print the output
+Step 6 : stop the program
+
+
+Pesudo Code :
+
+            function removeduplicate arr
+                let set = new set 
+                for let i =0 i arr.length i++
+                    set add arr i
+            let arr = 1 2 9 4 5 8 3 5 1 4 5
+            removeduplicate arr
+
+
+
+9 . Natural number :
+
+Define :
+
+Natural numbers are whole numbers from 1 upwards
+
+Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the values of number 1
+Step 3 : Check the condition for loop is Natural or not.
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+
+Pesudo Code :
+
+            const number1 = 10
+            let sum = 0
+            for  let i = 1 i  number 
+                sum = i
+
+
+ 10.  Even or odd 
+
+
+ Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the values of odd and even 
+Step 3 : Check the condition for loop is Natural or not.
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+Pesudo Code :
+
+        function EvenOddsum arr
+            var even =0
+            var off = 0
+        for let i = 0 i arr i++
+            if i 2 == 0
+                even = i
+            else 
+                odd = i
+        EvenOddsum
+
+
+11. merge two arrays :
+
+
+Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the values of arr1 , arr2 
+Step 3 : check the values of a array 1 , array 2.
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+
+
+Pesudo Code :
+
+function getuniqueaftermerge arr1, arr2 
+    let ar = arr1 concat arr2
+const array1 = 1 2 9 3 5 1 4 5 
+const array2 = 11 54 70 40
+
+
+
+12. Remove duplicate of the array :
+
+
+Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the values of books,newarray,uniqueobject
+Step 3 : check the values of a id & name.
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+Pesudo Code :
+
+        function removeduplicate
+            let newarray 
+            let uniqueobject
+            for let i in books
+                objid = book id
+                uniqueobject objid = book i
+            for i in uniqueobject
+                newarray push uniqueobject i
+        removeduplicate 
+
+
+13. Compare object :
+
+Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the values of id & name 
+Step 3 : check the values of a id & name.
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+
+Pesudo Code :
+
+    const obj1 = id 1 name edison
+    const obj2 = id 1 name edison
+    const havesamedata = function obj1 obj2
+        const obj1length = object keys obj1 length
+        const obj2length = object keys obj2 length
+        if objlength === obj2length
+            return object keys
+        return fasle 
+    const havesamedata1 = function obj3 obj4 
+        const obj3length = object key obj3 length
+        const obj4length = object key obj4 length
+    returen false
+
+
+14. flat the array :
+
+Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the value 
+Step 3 : check the values of a id & name.
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+
+Pesudo Code :
+
+const Numbers = 1 4 2 3 10 20 30 100 500 700 600 2000 1000
+const flatnumbers = numbers flat
+
+
+15. Group by id :
+
+Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the value
+Step 3 : check the values of a id & name.
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+
+Pesudo Code :
+
+            function groupby objectarray property
+                return objectarray reduce acc obj 
+                const key = obj property
+                if acc key 
+                    acc key 
+                acc key push obj 
+                return acc 
+            const groupedPeople = groupby people name 
+
+
+16. Right Angle triangles :
+
+Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the value of n1.
+Step 3 : check the for loop condition 
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+
+Pesudo code :
+
+let n1 = 5
+let string =
+for let i=1 i= n1
+    string1 = 
+string1 = n
+
+
+
+17. right angle triangle 
+
+Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the value of n2 , c, string 
+Step 3 : check the for loop condition 
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+
+Pesudo Code :
+    
+        let n = 4  m = 1
+        let string =
+        for let i =1 i=n
+            for let j =1 j =i
+                string = m
+            string = n
+
+
+18. pyramind :
+
+Algorithm :
+
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the value of n2 , c, string 
+Step 3 : check the for loop condition 
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+
+Pesudo Code :
+
+   let n2 = 4 c= 1
+   let string2 = 
+   for let i = 1 i = n2
+    for let j = 1 j = n2
+        string2 =
+    for let k = 1 k = i 
+        string2 = c
+        string2 = 
+
+
+
+19.  diamond  :
+
+Algorithm :
+
+Step 1 : Start the program
+Step 2 : Initialize the values and declare the value of n2 , c, string 
+Step 3 : check the for loop condition 
+Step 4 : Get the input from the user
+Step 5 : print the output 
+Step 6 : stop the program
+
+
+Pesudo Code :
+
+ let n3 = 5
+   let string3 = 
+   for let i = 1 i = n2
+    for let j = 1 j = n2
+        string3 =
+    for let k = 1 k = i 
+        string3 = c
+        string3 = 
+
+
+20
+(a).console.log
+
+The console.log() method outputs a message to the web console. 
+The message may be a single string (with optional substitution values), or it may be any one or more JavaScript objects.
+
+Synatx:
+console.log(obj1 [, obj2, ..., objN]);
+console.log(msg [, subst1, ..., substN]);
+
+(b).console.dir
+
+The method console.dir() displays an interactive list of the properties of the specified JavaScript object. 
+The output is presented as a hierarchical listing with disclosure triangles that let you see the contents of child objects.
+
+Syntax:
+console.dir(object);
+
+(c).console.count
+
+The console.count() method logs the number of times that this particular call to count() has been called.
+
+Syntax :
+console.count([label]);
+
+(d).console.table
+
+The console.table() method displays tabular data as a table.
+This function takes one mandatory argument data, which must be an array or an object, and one additional optional parameter columns.
+It logs data as a table. Each element in the array (or enumerable property if data is an object) will be a row in the table
+
+ex : console.table(["apples", "oranges", "bananas"]);
+
+(e).console.time/timeLog/timeEnd
+
+The console.time() method starts a timer you can use to track how long an operation takes. You give each timer a unique name, 
+and may have up to 10,000 timers running on a given page. When you call console.timeEnd() with the same name, the browser will output the time, 
+in milliseconds, that elapsed since the timer was started.
+
+Syntax :
+
+console.time(label);
+
+
+The console.timeEnd() stops a timer that was previously started by calling console.time().
+
+Syntax :
+
+console.timeEnd(label);
+
+The console.timeLog() method logs the current value of a timer that was previously started by calling console.time() to the console.
+
+Syntax :
+
+console.timeLog(label);
+
+(f). console.trace
+
+The console.trace() method outputs a stack trace to the Web console
+
+Syntax :
+
+console.trace( [...any, ...data ]);
+
+(g).console.group/groupEnd
+
+The console.group() method creates a new inline group in the Web console log, 
+causing any subsequent console messages to be indented by an additional level, until console.groupEnd() is called.
+
+Syntax :
+
+console.group([label]);
+
+The console.groupEnd() method exits the current inline group in the Web console. See Using groups in the console in the console documentation.
+
+Syntax :
+
+console.groupEnd();
+
+(h). console.assert.
+
+The console.assert() method writes an error message to the console if the assertion is false. If the assertion is true.
+
+Syntax :
+
+console.assert(assertion, obj1 [, obj2, ..., objN]);
+console.assert(assertion, msg [, subst1, ..., substN]);
