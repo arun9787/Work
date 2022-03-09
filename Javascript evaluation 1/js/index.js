@@ -26,29 +26,32 @@ else {
 var a = 10;
 console.log(a == '10');
 console.log(a === '10');
+console.log(typeof(a));
 
 //3.
 function ReverseString(str) 
 {
-	if(!str || str.length < 2 || typeof str!== 'string') {
+	if(!str || str.length < 2 || typeof str!== 'string') 
+  {
 	return 'Not valid';
-    }
+  }
 	const revArray = [];
 	const length = str.length - 1;
-	for(let i = length; i >= 0; i--) {
+	for(let i = length; i >= 0; i--)
+  {
 		revArray.push(str[i]);
 	}
 	return revArray.join('');
 }
+console.log(ReverseString("Arun Kumar"))
 
-console.log(ReverseString("Yavar Techworks"))
 
 //4.
 function reverseWords(str) {
-    let reverseWordArr = str.split(" ").map(word => word.split("").reverse().join(""));
+    let reverseWordArr = str.split(" ").reverse();
     return reverseWordArr.join(" ");
   }
-console.log(reverseWords("Yavar TechWorks"))
+console.log(reverseWords("Arun Kumar"))
 
 //5.
 function check_palindrome( str )
@@ -65,10 +68,9 @@ function check_palindrome( str )
     }
     return true;  
   }
- 
-  function is_palindrome( str )
-  {
+function is_palindrome( str )
 
+{
     let ans = check_palindrome(str);
     if( ans == true )
     {
@@ -79,13 +81,14 @@ function check_palindrome( str )
       console.log("passed string not a palindrome");
     }
   }
-  let test = "Yavar";
+  let test = "Arun Kumar";
   is_palindrome(test);
 
-  //6.
-    /* ForEach */
-    let myArray1 = [1, 2, 3, 4];
-    const returnValue1 = myArray1.forEach((element) => {
+//6.
+/* ForEach */
+let myArray1 = [1, 2, 3, 4];
+const returnValue1 = myArray1.forEach((element) =>
+ {
         return element * element;
     })
     console.log(returnValue1);
@@ -96,6 +99,8 @@ function check_palindrome( str )
         return element * element;
     })
     console.log(returnValue2);
+
+
 //7.
 
 const min = 1;
@@ -243,7 +248,6 @@ const people = [
        if (!acc[key]) {
           acc[key] = [];
        }
-       // Add object to list for given key's value
        acc[key].push(obj);
        return acc;
     }, {});
@@ -253,11 +257,10 @@ const people = [
 
 
 //16.
-let n1 = 5; // height of pattern
+let n1 = 5; 
 let string1 = "";
-// External loop
-for (let i = 1; i <= n1; i++) {
-  // Internal loop
+for (let i = 1; i <= n1; i++) 
+{
   for (let j = 1; j <= i; j++) {
     string1 += '*';
   }
@@ -267,11 +270,10 @@ for (let i = 1; i <= n1; i++) {
 console.log(string1);
 
 //17. 
-let n = 4, m= 1; // height of pattern
+let n = 4, m= 1; 
 let string = "";
-// External loop
-for (let i = 1; i <= n; i++) {
-  // Internal loop
+for (let i = 1; i <= n; i++) 
+{  
   for (let j = 1; j <= i; j++) {
     string += m;
     m++;
@@ -283,13 +285,11 @@ console.log(string);
 //18. 
 let n2 = 4  , c =1;
 let string2 = "";
-// External loop
-for (let i = 1; i <= n2; i++) {
-  // creating spaces
+for (let i = 1; i <= n2; i++) 
+{
   for (let j = 1; j <= n2 - i; j++) {
     string2 += " ";
   }
-  // creating numbers
   for (let k = 1; k <= i; k++) {
     string2 += c;
     string2 += " ";
@@ -302,25 +302,21 @@ console.log(string2);
 //19.
 let n3= 5;
 let string3 = "";
-// Upside pyramid
-for (let i = 1; i <= n; i++) {
-  // printing spaces
+for (let i = 1; i <= n; i++) 
+{
   for (let j = n3; j > i; j--) {
     string3+= " ";
   }
-  // printing star
   for (let k = 0; k < i * 2 - 1; k++) {
     string3+= "*";
   }
   string3+= "\n";
 }
-// downside pyramid
-for (let i = 1; i <= n3- 1; i++) {
-  // printing spaces
+for (let i = 1; i <= n3- 1; i++) 
+{
   for (let j = 0; j < i; j++) {
     string3+= " ";
   }
-  // printing star
   for (let k = (n3 - i) * 2 - 1; k > 0; k--) {
     string3+= "*";
   }
